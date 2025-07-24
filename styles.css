@@ -89,9 +89,9 @@ h2{
     width: 40%;
     bottom: 65%;
     left: 73%;
-    height: auto;
+  
    
-    height: 40%;
+  
    
    
 
@@ -115,11 +115,138 @@ overflow: visible;}
 .txt
 {
    width:50%;
+   font-size: small;
    
    
 }
 
-body{position: relative;
+body{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+
+
+.deals{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.design
+{width: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.first
+{display: grid;
+    width: 35.32%;
+    gap: 2%;
+  position: relative;
+text-align: center;
+color: white;
+
+}
+
+.dimg, .dimg1
+{position: relative;
+    border-radius: 20px;
+  filter: brightness(60%);
+}
+
+
+.first img{
+    height: 90%;
+width: 100%;
+    
+}
+.text
+{
+    position: absolute;
+top: 22.5%;
+left: 29%;
+font-size: large;
+}
+
+
+.text1
+{
+    position: absolute;
+top: 72.5%;
+left: 30%;
+font-size: large;
+}
+
+.second
+{
+    position: relative;
+    text-align: center;
+color: white;
+}
+
+.text2
+{
+ position: absolute;
+top: 42.5%;
+left: 32%;
+font-size: xx-large;
+
+
+}
+
+
+input[type="email"] {
+  border: none;
+ 
+  padding: 2%;
+  width: 400px;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  border: none;
+ 
+  padding: 2%;
+background-color: #E95A08;
+width: 0100px;
+color: white;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.colorful
+{
+    display: grid;
+
+  background-image: url('asset/news-letter-bg.png');
+  
+
+  height: 500px;
+
+align-items: center;
+margin-top: 10%;
+place-items: center;
+ 
+ 
+}
+
+.colorful h2{
+    margin-top:0%;
+    color: white;
+}
+.class2
+{
+    display: flex;
+    margin-bottom: 15%;
+}
+
+.class1
+{
+    margin-top: 20%;
 }
