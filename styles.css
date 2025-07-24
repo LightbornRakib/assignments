@@ -250,3 +250,45 @@ place-items: center;
 {
     margin-top: 20%;
 }
+footer
+{width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+ 
+}
+
+.div2
+{ 
+    display: inline-block;
+}
+
+.div1 {width:30% ;
+ 
+}
+
+.div1 img{
+
+    width: 40%;
+
+}
+
+.div4 img{
+    width: 30%;
+
+    
+}
+
+.div2, .div3
+{
+    margin-top: 0%;
+
+}
+
+.div4{
+    margin-right: 10%;
+    display: flex;
+    height: 10%;
+    gap: 20%;
+}
