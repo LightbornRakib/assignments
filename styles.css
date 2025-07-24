@@ -1,0 +1,125 @@
+
+
+
+header{ margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+      margin-right: 5%;
+      font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+ .fresh-flower{
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+
+ .left
+ {
+width: 50%;
+
+
+ }
+ .right
+ { width: 50%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .cards
+ { width: 100%;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2%;
+ }
+
+
+ img{
+    width: 100%;
+    
+ }
+ #one{
+    height: 10%;
+    width: 10%;
+ }
+p{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 4rem;
+
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.our-plants
+{
+    display: block;
+    text-align: center;
+}
+
+.btn
+{
+    background-color:  #E95A08;
+    color: white;
+    border: none;
+    height: 10%;
+    width: 100%;
+}
+.image
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.spc
+{
+    position: absolute;
+
+
+    z-index: 10;
+    width: 40%;
+    bottom: 65%;
+    left: 73%;
+    height: auto;
+   
+    height: 40%;
+   
+   
+
+}
+
+
+.lover
+{
+    width: 92vw;
+    display: flex;
+    margin-top: 40%;
+    height: 50vh; 
+
+   
+}
+.men
+{width: 50%;
+position: relative;
+overflow: visible;}
+
+.txt
+{
+   width:50%;
+   
+   
+}
+
+body{position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
